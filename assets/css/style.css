@@ -1,0 +1,23 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #F9F2EC;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: url('../images/header-cartoon-lavender.jpg');
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+}
+
+.navbar-azime {
+    background-color: #F9F2EC;
+}
+
+/* .navbar-azime a {
+    color: white;
+} */
