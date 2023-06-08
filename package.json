@@ -1,0 +1,23 @@
+{
+  "name": "azime_birthday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azimezn/azime_birthday.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azimezn/azime_birthday/issues"
+  },
+  "homepage": "https://github.com/azimezn/azime_birthday#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
