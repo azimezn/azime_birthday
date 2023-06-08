@@ -13,11 +13,11 @@ $("#myForm").submit(function (event) {
         data: formData,
         success: function (response) {
             console.log(response);
-            alert("Data saved successfully");
+            alert("I got your message! Thank you!");
         },
         error: function (xhr, status, error) {
             console.log(xhr);
-            alert("An error occurred: " + status + "nError: " + error);
+            alert("Oh no. An error occurred: " + status + "nError: " + error + "Your message was not saved, please text me");
         }
     });
 });

@@ -21,3 +21,21 @@ body {
 /* .navbar-azime a {
     color: white;
 } */
+
+.intro-text,
+.form-azime {
+    width: 60vw;
+}
+
+.place-info {
+    width: 300px;
+    border-style: outset;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .intro-text,
+    .form-azime {
+      width: 90vw;
+    }
+  }
