@@ -8,8 +8,7 @@ const mongodb = require('mongodb').MongoClient;
 // express() is a global function
 const app = express();
 
-// localhost:3001
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // connection string to local instance of monggodb, including database name
 const connectionStringURI = `mongodb+srv://mongo:${process.env.MONGO_PASSWORD}@azimebirthday.xkfugto.mongodb.net/birthdayDB?retryWrites=true&w=majority`;
@@ -51,3 +50,7 @@ app.post('/formSubmit', (req, res) => {
             }
         });
 });
+
+app.listen(PORT, () => {
+    console.log(`Example app listening at http://localhost:${PORT}`);
+  });
