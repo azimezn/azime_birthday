@@ -36,6 +36,11 @@ app.use(express.json());
 // static means that it is served in the browser. such as images, css, js. it is not processed by the server.
 app.use(express.static('public'));
 
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  });
+
 app.post('/formSubmit', (req, res) => {
     // 'formResponses' is the name of the collection
     db.collection('formResponses').insertOne(
