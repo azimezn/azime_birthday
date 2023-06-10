@@ -81,7 +81,7 @@
       </div>
       <!-- options to attend -->
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="attendance" id="flexRadioDefault1" value="attend" checked>
+        <input class="form-check-input" type="radio" name="attendance" id="flexRadioDefault1" value="yes" checked>
         <label class="form-check-label" for="flexRadioDefault1">
           I will attend for sure!
         </label>
@@ -93,7 +93,7 @@
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="attendance" id="flexRadioDefault3" value="notattend">
+        <input class="form-check-input" type="radio" name="attendance" id="flexRadioDefault3" value="no">
         <label class="form-check-label" for="flexRadioDefault3">
           I'm sorry, I won't be able to attend.
         </label>
@@ -101,7 +101,7 @@
       <!-- message input -->
       <div>
         <label for="messageTextarea" class="form-label">Would you like to add anything else?</label>
-        <textarea class="form-control" id="messageTextarea" name="message" rows="3"
+        <textarea class="form-control" id="messageText" name="message" rows="3"
           placeholder="Will you have a +1? Any questions? Recommendations? Reason for not being able to attend this lovely person's birthday?"></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
@@ -109,14 +109,13 @@
     </form>
   </div>
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
   <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- emailJS -->
-  <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="./assets/js/index.js"></script>
   <script src="./assets/js/emailjs.js"></script>
-  
+
 </body>
 
 </html>
