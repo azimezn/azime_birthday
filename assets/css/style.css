@@ -60,8 +60,24 @@ body {
     background-color: #7eb5e8;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-tiktok {
+    font-size: 30px !important;
+    padding-top: 30px !important;
+}
+.fa-tumblr {
+    padding-top: 18px !important;
+}
+
 /* icons */
 .fa {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     font-size: 30px;
     width: 30px;
